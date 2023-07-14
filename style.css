@@ -1,0 +1,143 @@
+{
+    text-decoration:none;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    float: unset;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family:courier;
+    color: #97FEED;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #071952;
+    z-index: 1;
+    border: 1px solid #fdd017;
+    border-style: double;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: #FBD85D;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: monospace;
+    color: #0B666A;
+}
+
+.kolom .penjelasan{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+    margin: 10px;
+    margin-top: auto;
+}
+
+.pendidikan{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.sekolah .deskripsi{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: monospace;
+    color: #0B666A;
+    margin: auto;
+}
+
+.sekolah .penjelasan{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+    margin: 0px;
+    margin-top: auto;
+}
+
+.prestasi .deskripsi{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: monospace;
+    color: #0B666A;
+    margin: auto;
+}
+
+.prestasi .penjelasan{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+    margin: 10px;
+    margin-top: auto;
+}
+
+.prestasidua .penjelasan{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+    margin: 10px;
+    margin-top: auto;
+}
